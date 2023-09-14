@@ -1,0 +1,123 @@
+.hero {
+  width: auto;
+  height: 600px;
+  border: 2px #d1d5db;
+  background-image: url(https://sm.mashable.com/mashable_in/seo/5/54357/54357_8eqd.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: initial;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: azure;
+}
+
+.input {
+  width: 370px;
+  height: 100%;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #2e2431;
+  caret-color: #f7f7f8;
+  color: #fff;
+  padding: 7px 10px;
+  border: 2px solid #d3074b;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-right: 1px;
+  transition: all 0.2s ease;
+}
+.input:hover {
+  border: 2px solid rgba(255, 255, 255, 0.16);
+}
+
+.input:focus {
+  border: 2px solid #a970ff;
+  background-color: #0e0e10;
+}
+
+.search__btn {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(42, 42, 45, 1);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__btn:hover {
+  background-color: rgba(54, 54, 56, 1);
+}
+
+.right_menu {
+  display: flex;
+  .menuIcon {
+    width: 50px;
+    height: 35px;
+    border-radius: 200px;
+    background: var(--rose-700, #5a091d);
+    justify-content: center;
+    align-items: center;
+    .dash {
+      width: 30px;
+      height: 5px;
+      margin: 2px;
+      background: #fff;
+    }
+  }
+}
+.signin {
+  margin-right: 50px;
+}
+.movieDetails {
+  margin-top: 10%;
+  margin-left: 10%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+
+  .title {
+    width: 404px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+  }
+  .details {
+    width: 302px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+  }
+  .watchBtn {
+    cursor: pointer;
+    border-radius: 6px;
+    background: var(--rose-700, #5a091d);
+    color: #fff;
+    display: flex;
+    padding: 6px 16px;
+    align-items: center;
+    gap: 8px;
+  }
+}
