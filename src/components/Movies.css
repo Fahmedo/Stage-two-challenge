@@ -1,4 +1,5 @@
 .container_header {
+  margin: 20px;
   color: #000;
   font-family: DM Sans;
   font-size: 36px;
@@ -12,10 +13,10 @@
   position: relative;
   display: grid;
   grid-template-columns: auto auto auto auto;
-
   margin: 0 auto;
   align-content: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 .movie {
   width: 300px;
@@ -43,7 +44,7 @@
   visibility: hidden;
   bottom: 0;
   padding: 5px;
-  transition: all 1s ease-out;
+  transition: all 1s ease;
 }
 .movie:hover .detail {
   visibility: initial;
@@ -56,11 +57,49 @@
   font-weight: 800;
   text-transform: capitalize;
 }
-.release_date {
+
+.link_btn {
+  position: absolute;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  top: 5%;
+  right: 10%;
+  justify-content: center;
+  padding: 5px;
+  color: #fff;
+  visibility: hidden;
+  border-radius: 50%;
+  background-color: rgba(243, 244, 246, 0.5);
+}
+.link_btn:hover {
+  background-color: hsla(0, 100%, 50%, 0.753);
+}
+.movie:hover .link_btn {
+  visibility: inherit;
+}
+.down_detail {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   color: var(--gray-400, #9ca3af);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
