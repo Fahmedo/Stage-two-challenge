@@ -1,5 +1,5 @@
 import axios from 'axios';
-import './movies.css';
+import './Movies.css';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Loader from '../utilities/Loader';
