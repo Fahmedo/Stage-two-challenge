@@ -12,7 +12,7 @@ function HomeView() {
           <div className="nav_bar">
             <Link to={'/'}>
               <div className="logo">
-                <img src="/public/tv.png" alt="" />
+                <img src="tv.png" alt="" />
                 BoxWatch
               </div>
             </Link>

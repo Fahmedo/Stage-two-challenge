@@ -35,7 +35,7 @@ function MovieDetails() {
     <div className="details_container">
       <Link to={'/'}>
         <div className="logo_wrap">
-          <img src="/public/tv.png" alt="" />
+          <img src="/tv.png" alt="" />
           <span>Back home</span>
         </div>
       </Link>
