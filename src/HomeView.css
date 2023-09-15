@@ -164,10 +164,15 @@
   }
   .movieDetails {
     margin-top: 25%;
+    margin-left: 5%;
     .title {
       width: 250px;
     }
+    .details {
+      width: 300px;
+    }
   }
+
   .logo {
     gap: 16px;
     font-size: 1rem;

@@ -12,7 +12,7 @@ function HomeView() {
           <div className="nav_bar">
             <Link to={'/'}>
               <div className="logo">
-                <img src="tv.png" alt="" />
+                <img src="/tv.png" alt="" />
                 BoxWatch
               </div>
             </Link>
@@ -69,9 +69,7 @@ function HomeView() {
           <div className="movieDetails">
             <div className="title">Spiderman into the spider verse</div>
             <div className="details">
-              John Wick is on the run after killing a member of the
-              international assassins guild, and with a $14 million price tag on
-              his head, he is the target of hit men and women everywhere.
+            After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence.
             </div>
             <div className="rating"></div>
             <div className="watchBtn">
